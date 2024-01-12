@@ -29,6 +29,7 @@ $( document ).ready(function() {
        changeColor();
      } );
     $( "#btn2" ).on( "click", function() {
+      changeColor();
       var k = 0;
       var z = 0;
       for(var i = 0;i<5;i++){
